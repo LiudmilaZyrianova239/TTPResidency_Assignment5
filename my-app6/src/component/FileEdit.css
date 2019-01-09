@@ -1,0 +1,76 @@
+ul.file {
+    border: black;
+    text-align: center;
+}
+
+.header {
+    color: #454a75;
+    font-size: 50px;
+}
+.listOfFiles {
+    list-style-type: none;
+    text-align: center;
+    display: inline-flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+}
+
+/*ButtonToggle*/
+.buttonToggle {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(45, 41, 102, 0.75);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 12px #999;
+  }
+  
+  
+  
+  .buttonToggle:active {
+    background-color: rgba(30, 34, 94, 0.9);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  /*ButtonUntoggle*/
+.buttonUntoggle {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(30, 34, 94, 0.9);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  .buttonUntoggle:active {
+    background-color: rgba(45, 41, 102, 0.75);
+    box-shadow: 0 12px #666;
+    transform: translateY(4px);
+  }
+
+  .card {
+    transition: 0.3s;
+    width: 30%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px ;
+  }
